@@ -1,0 +1,104 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.imageWrapper {
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.caption {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.subheading {
+  margin-top: 40px;
+  font-size: 2rem;
+  color: #222;
+}
+
+.movieList {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.movieItem {
+  margin: 8px 0;
+}
+
+.moviesGrid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.moviesGrid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.moviesGrid::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.movieCard {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  background: white;
+  padding: 16px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: Arial;
+  transition: transform 0.3s ease;
+}
+
+.movieCard:hover {
+  transform: scale(1.05);
+}
+
+.poster {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.noPoster {
+  width: 100%;
+  height: 320px;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 14px;
+}
