@@ -1,11 +1,8 @@
+// pages/api/revalidate-post.ts
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const { id, secret } = req.query
-
-  if (secret !== process.env.REVALIDATE_SECRET_TOKEN) {
-    return res.status(401).json({ message: 'Invalid secret' })
-  }
+  const { id } = req.query
 
   if (!id || Array.isArray(id)) {
     return res.status(400).json({ message: 'Invalid or missing id' })
