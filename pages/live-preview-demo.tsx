@@ -12,7 +12,7 @@ export default function LivePreviewDemo({ initialTitle }: Props) {
 
   useEffect(() => {
     ContentstackLivePreview.onEntryChange(() => {
-      fetch('api/song') // ✅ updated
+      fetch('/api/song')
         .then((res) => res.json())
         .then((data) => {
           if (data?.title) {
@@ -32,8 +32,8 @@ export default function LivePreviewDemo({ initialTitle }: Props) {
 
 export const getStaticProps: GetStaticProps = async () => {
   try {
-    const result = await Stack.ContentType('Song').Query().toJSON().find()
-    const entry = result[0][0]
+    const result = await Stack.ContentType('song').Query().toJSON().find()
+    const entry = result[0][0] // First entry from query
 
     return {
       props: {
