@@ -32,7 +32,7 @@ export default function LivePreviewDemo({ initialTitle }: Props) {
 
 export const getStaticProps: GetStaticProps = async () => {
   try {
-    const result = await Stack.ContentType('song').Query().toJSON().find()
+    const result = await Stack.ContentType('Song').Query().toJSON().find()
     const entry = result[0][0]
 
     return {
