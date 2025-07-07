@@ -12,7 +12,7 @@ export default function LivePreviewDemo({ initialTitle }: Props) {
 
   useEffect(() => {
     ContentstackLivePreview.onEntryChange(() => {
-      fetch('/api/song') // ✅ updated
+      fetch('api/song') // ✅ updated
         .then((res) => res.json())
         .then((data) => {
           if (data?.title) {
