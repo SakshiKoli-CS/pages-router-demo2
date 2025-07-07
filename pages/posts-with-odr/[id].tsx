@@ -1,47 +1,58 @@
-import { GetStaticProps, GetStaticPaths, InferGetStaticPropsType } from 'next'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import { useRouter } from 'next/router'
+import { fetchPostById } from '../../lib/fetchPost'
 
 type Post = {
+  userId: number
   id: number
   title: string
   body: string
   timestamp: string
 }
 
+type Props = {
+  post: Post
+}
+
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [],
-    fallback: 'blocking',
+    paths: [], 
+    fallback: 'blocking', 
   }
 }
 
-export const getStaticProps: GetStaticProps<{ post: Post }> = async ({ params }) => {
-  const id = params?.id as string
+export const getStaticProps: GetStaticProps<Props> = async (context) => {
+  const { id } = context.params as { id: string }
 
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/posts/${id}`)
-    if (!res.ok) throw new Error('Failed to fetch')
-
-    const post = await res.json()
+    const post = await fetchPostById(id)
 
     return {
-      props: { post },
-      revalidate: 40,
+      props: {
+        post,
+      },
+      revalidate: 40, // CDN cache for 40s
     }
-  } catch (err) {
-    return { notFound: true }
+  } catch {
+    return {
+      notFound: true,
+    }
   }
 }
 
-export default function PostODR({
-  post,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function PostWithODR({ post }: Props) {
+  const router = useRouter()
+
+  if (router.isFallback) return <p>Loading...</p>
+
   return (
-    <div style={{ textAlign: 'center', fontFamily: 'Arial', padding: '2rem' }}>
-      <h1>📘 Post #{post.id}</h1>
+    <div style={{ padding: '2rem' }}>
+      <h1>📄 Post #{post.id}</h1>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
-      <hr />
-      <p><strong>Timestamp:</strong> {post.timestamp}</p>
+      <p style={{ marginTop: '1rem', color: 'gray' }}>
+        <strong>Timestamp:</strong> {post.timestamp}
+      </p>
     </div>
   )
 }
