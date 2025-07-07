@@ -9,8 +9,8 @@ type Post = {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [], // No pre-rendered paths
-    fallback: 'blocking', // Build on demand
+    paths: [],
+    fallback: 'blocking',
   }
 }
 
@@ -25,7 +25,7 @@ export const getStaticProps: GetStaticProps<{ post: Post }> = async ({ params })
 
     return {
       props: { post },
-      revalidate: 40, // ✅ Cached on CDN for 40s
+      revalidate: 40,
     }
   } catch (err) {
     return { notFound: true }
