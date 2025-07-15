@@ -1,5 +1,3 @@
-// pages/posts/[id].tsx
-
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
 import { fetchPostById } from '../../lib/fetchPost'

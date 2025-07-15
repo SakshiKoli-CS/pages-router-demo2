@@ -1,0 +1,398 @@
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-14 12:42:52.831:  Installing dependencies..."}
+{"level":"info","message":"2025-07-14 12:42:57.277:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:42:57.286:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-14 12:42:57.288:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:42:59.781:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-14 12:43:01.065:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-14 12:43:09.407:  added 419 packages, and audited 420 packages in 12s"}
+{"level":"info","message":"2025-07-14 12:43:09.409:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-14 12:43:09.411:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-14 12:43:09.413:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-14 12:43:09.415:  npm notice"}
+{"level":"info","message":"2025-07-14 12:43:09.417:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:09.418:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:09.420:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:09.422:  npm notice"}
+{"level":"info","message":"2025-07-14 12:43:14.942:  Init build..."}
+{"level":"info","message":"2025-07-14 12:43:16.645:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-14 12:43:16.648:  > next build"}
+{"level":"info","message":"2025-07-14 12:43:17.487:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-14 12:43:17.489:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-14 12:43:17.491:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-14 12:43:17.493:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-14 12:43:17.607:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-14 12:43:17.610:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-14 12:43:19.643:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-14 12:43:28.147:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-14 12:43:28.150:     Collecting page data ..."}
+{"level":"info","message":"2025-07-14 12:43:30.237:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:43:30.799:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-14 12:43:32.324:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:43:32.469:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-14 12:43:32.471:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-14 12:43:32.535:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-14 12:43:33.199:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-14 12:43:37.437:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-14 12:43:51.436:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-14 12:43:51.438:  ┌ ● / (1274 ms)                            4.88 kB         204 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.440:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-14 12:43:51.442:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.443:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.445:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.446:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.448:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.449:  ├ ● /live-preview-demo (1100 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:43:51.451:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.453:  ├ ● /posts/[id] (5071 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:43:51.454:  ├   ├ /posts/3 (1082 ms)"}
+{"level":"info","message":"2025-07-14 12:43:51.455:  ├   ├ /posts/1 (998 ms)"}
+{"level":"info","message":"2025-07-14 12:43:51.457:  ├   ├ /posts/2 (997 ms)"}
+{"level":"info","message":"2025-07-14 12:43:51.458:  ├   ├ /posts/4 (997 ms)"}
+{"level":"info","message":"2025-07-14 12:43:51.460:  ├   └ /posts/5 (997 ms)"}
+{"level":"info","message":"2025-07-14 12:43:51.461:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.463:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.464:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.466:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.467:    ├ chunks/pages/_app-0459ce9a60cf64f5.js   106 kB"}
+{"level":"info","message":"2025-07-14 12:43:51.469:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-14 12:43:51.470:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-14 12:43:51.472:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-14 12:43:51.473:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-14 12:43:51.475:  npm notice"}
+{"level":"info","message":"2025-07-14 12:43:51.476:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:51.478:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:51.479:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:43:51.481:  npm notice"}
+{"level":"info","message":"2025-07-14 12:43:52.839:  Build successful"}
+{"level":"info","message":"2025-07-14 12:43:52.841:  Cloud functions:"}
+{"level":"info","message":"2025-07-14 12:43:52.979:  None"}
+{"level":"info","message":"2025-07-14 12:44:55.409:  Build and hosting process completed successfully"}
+{"level":"info","message":"2025-07-14 12:44:56.260:  Site is live"}
+{"level":"info","message":"New project created successfully"}
+{"level":"info","message":"2025-07-14 12:51:34.360:  Installing dependencies..."}
+{"level":"info","message":"2025-07-14 12:51:38.821:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:51:38.830:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-14 12:51:38.831:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:51:41.320:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-14 12:51:42.580:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-14 12:51:50.752:  added 419 packages, and audited 420 packages in 12s"}
+{"level":"info","message":"2025-07-14 12:51:50.755:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-14 12:51:50.757:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-14 12:51:50.758:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-14 12:51:50.760:  npm notice"}
+{"level":"info","message":"2025-07-14 12:51:50.761:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:51:50.763:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:51:50.764:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:51:50.766:  npm notice"}
+{"level":"info","message":"2025-07-14 12:51:56.499:  Init build..."}
+{"level":"info","message":"2025-07-14 12:51:58.046:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-14 12:51:58.048:  > next build"}
+{"level":"info","message":"2025-07-14 12:51:58.888:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-14 12:51:58.891:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-14 12:51:58.892:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-14 12:51:58.894:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-14 12:51:59.005:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-14 12:51:59.007:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-14 12:52:01.022:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-14 12:52:09.437:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-14 12:52:09.439:     Collecting page data ..."}
+{"level":"info","message":"2025-07-14 12:52:11.449:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:52:12.023:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-14 12:52:13.545:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:52:13.728:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-14 12:52:13.730:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-14 12:52:13.732:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-14 12:52:13.942:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-14 12:52:18.628:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-14 12:52:18.630:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-14 12:52:32.404:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-14 12:52:32.407:  ┌ ● / (1273 ms)                            4.88 kB         204 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.408:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-14 12:52:32.410:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.411:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.413:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.414:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.416:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.417:  ├ ● /live-preview-demo (1036 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:52:32.419:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.420:  ├ ● /posts/[id] (5180 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:52:32.422:  ├   ├ /posts/1 (1038 ms)"}
+{"level":"info","message":"2025-07-14 12:52:32.423:  ├   ├ /posts/2 (1036 ms)"}
+{"level":"info","message":"2025-07-14 12:52:32.424:  ├   ├ /posts/5 (1036 ms)"}
+{"level":"info","message":"2025-07-14 12:52:32.426:  ├   ├ /posts/3 (1035 ms)"}
+{"level":"info","message":"2025-07-14 12:52:32.427:  ├   └ /posts/4 (1035 ms)"}
+{"level":"info","message":"2025-07-14 12:52:32.429:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.430:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.432:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.434:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.435:    ├ chunks/pages/_app-0459ce9a60cf64f5.js   106 kB"}
+{"level":"info","message":"2025-07-14 12:52:32.437:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-14 12:52:32.438:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-14 12:52:32.440:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-14 12:52:32.441:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-14 12:52:32.443:  npm notice"}
+{"level":"info","message":"2025-07-14 12:52:32.444:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:52:32.446:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:52:32.447:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:52:32.449:  npm notice"}
+{"level":"info","message":"2025-07-14 12:52:33.829:  Build successful"}
+{"level":"info","message":"2025-07-14 12:52:33.832:  Cloud functions:"}
+{"level":"info","message":"2025-07-14 12:52:33.969:  None"}
+{"level":"info","message":"2025-07-14 12:53:35.982:  Build and hosting process completed successfully"}
+{"level":"info","message":"2025-07-14 12:53:36.573:  Site is live"}
+{"level":"info","message":"New project created successfully"}
+{"level":"info","message":"2025-07-14 12:56:53.887:  Installing dependencies..."}
+{"level":"info","message":"2025-07-14 12:56:58.305:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:56:58.316:  =========================================================="}
+{"level":"info","message":"2025-07-14 12:57:02.031:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-14 12:57:10.360:  added 419 packages, and audited 420 packages in 12s"}
+{"level":"info","message":"2025-07-14 12:57:10.363:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-14 12:57:10.365:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-14 12:57:10.367:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-14 12:57:10.368:  npm notice"}
+{"level":"info","message":"2025-07-14 12:57:10.370:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:10.372:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:10.374:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:10.376:  npm notice"}
+{"level":"info","message":"2025-07-14 12:57:15.912:  Init build..."}
+{"level":"info","message":"2025-07-14 12:57:17.452:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-14 12:57:17.454:  > next build"}
+{"level":"info","message":"2025-07-14 12:57:18.294:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-14 12:57:18.297:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-14 12:57:18.299:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-14 12:57:18.301:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-14 12:57:18.410:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-14 12:57:18.412:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-14 12:57:20.478:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-14 12:57:28.892:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-14 12:57:28.894:     Collecting page data ..."}
+{"level":"info","message":"2025-07-14 12:57:30.964:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:57:31.599:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-14 12:57:33.105:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-14 12:57:33.267:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-14 12:57:33.269:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-14 12:57:33.272:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-14 12:57:33.510:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-14 12:57:38.137:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-14 12:57:38.140:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-14 12:57:52.134:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-14 12:57:52.136:  ┌ ● / (1248 ms)                            4.88 kB         204 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.138:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-14 12:57:52.140:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.142:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.144:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.146:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.148:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.150:  ├ ● /live-preview-demo (1003 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:57:52.152:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.154:  ├ ● /posts/[id] (5015 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-14 12:57:52.155:  ├   ├ /posts/1 (1004 ms)"}
+{"level":"info","message":"2025-07-14 12:57:52.157:  ├   ├ /posts/2 (1004 ms)"}
+{"level":"info","message":"2025-07-14 12:57:52.159:  ├   ├ /posts/4 (1003 ms)"}
+{"level":"info","message":"2025-07-14 12:57:52.161:  ├   ├ /posts/3 (1002 ms)"}
+{"level":"info","message":"2025-07-14 12:57:52.163:  ├   └ /posts/5 (1002 ms)"}
+{"level":"info","message":"2025-07-14 12:57:52.165:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.167:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.169:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.171:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.173:    ├ chunks/pages/_app-0459ce9a60cf64f5.js   106 kB"}
+{"level":"info","message":"2025-07-14 12:57:52.174:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-14 12:57:52.176:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-14 12:57:52.178:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-14 12:57:52.180:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-14 12:57:52.182:  npm notice"}
+{"level":"info","message":"2025-07-14 12:57:52.184:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:52.186:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:52.188:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-14 12:57:52.190:  npm notice"}
+{"level":"info","message":"2025-07-14 12:57:53.529:  Build successful"}
+{"level":"info","message":"2025-07-14 12:57:53.532:  Cloud functions:"}
+{"level":"info","message":"2025-07-14 12:57:53.668:  None"}
+{"level":"info","message":"2025-07-14 12:58:50.655:  Build and hosting process completed successfully"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-15 06:37:52.854:  Installing dependencies..."}
+{"level":"info","message":"2025-07-15 06:37:58.633:  =========================================================="}
+{"level":"info","message":"2025-07-15 06:37:58.641:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-15 06:37:58.643:  =========================================================="}
+{"level":"info","message":"2025-07-15 06:38:01.304:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-15 06:38:02.591:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-15 06:38:11.349:  added 419 packages, and audited 420 packages in 13s"}
+{"level":"info","message":"2025-07-15 06:38:11.352:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-15 06:38:11.354:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-15 06:38:11.357:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-15 06:38:11.359:  npm notice"}
+{"level":"info","message":"2025-07-15 06:38:11.361:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:11.363:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:11.365:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:11.367:  npm notice"}
+{"level":"info","message":"2025-07-15 06:38:18.536:  Init build..."}
+{"level":"info","message":"2025-07-15 06:38:21.514:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-15 06:38:22.475:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-15 06:38:22.477:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-15 06:38:22.480:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-15 06:38:22.621:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-15 06:38:25.006:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-15 06:38:34.229:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-15 06:38:34.231:     Collecting page data ..."}
+{"level":"info","message":"2025-07-15 06:38:36.438:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 06:38:37.059:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-15 06:38:38.676:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 06:38:38.853:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-15 06:38:38.856:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-15 06:38:38.858:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-15 06:38:38.903:  Error in getStaticProps: {"}
+{"level":"info","message":"2025-07-15 06:38:38.906:    error_message: \"We can't find that Stack. Please try again.\","}
+{"level":"info","message":"2025-07-15 06:38:38.908:    error_code: 109,"}
+{"level":"info","message":"2025-07-15 06:38:38.910:    errors: { api_key: [ 'is not valid.' ] },"}
+{"level":"info","message":"2025-07-15 06:38:38.913:    status: 412,"}
+{"level":"info","message":"2025-07-15 06:38:38.915:    statusText: 'Precondition Failed'"}
+{"level":"info","message":"2025-07-15 06:38:38.917:  }"}
+{"level":"info","message":"2025-07-15 06:38:39.630:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-15 06:38:44.185:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-15 06:38:44.188:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-15 06:38:59.336:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-15 06:38:59.339:  ┌ ● / (1370 ms)                            4.88 kB         204 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.342:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-15 06:38:59.344:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.346:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.349:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.351:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.353:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.355:  ├ ● /live-preview-demo (1111 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 06:38:59.358:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.360:  ├ ● /posts/[id] (5397 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 06:38:59.362:  ├   ├ /posts/1 (1080 ms)"}
+{"level":"info","message":"2025-07-15 06:38:59.364:  ├   ├ /posts/2 (1080 ms)"}
+{"level":"info","message":"2025-07-15 06:38:59.367:  ├   ├ /posts/5 (1080 ms)"}
+{"level":"info","message":"2025-07-15 06:38:59.369:  ├   ├ /posts/4 (1079 ms)"}
+{"level":"info","message":"2025-07-15 06:38:59.371:  ├   └ /posts/3 (1078 ms)"}
+{"level":"info","message":"2025-07-15 06:38:59.373:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.376:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.378:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.380:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.382:    ├ chunks/pages/_app-459ca665290d265d.js   106 kB"}
+{"level":"info","message":"2025-07-15 06:38:59.385:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-15 06:38:59.387:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-15 06:38:59.389:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-15 06:38:59.392:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-15 06:38:59.394:  npm notice"}
+{"level":"info","message":"2025-07-15 06:38:59.396:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:59.399:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:59.401:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-15 06:38:59.403:  npm notice"}
+{"level":"info","message":"2025-07-15 06:39:07.317:  Build successful"}
+{"level":"info","message":"2025-07-15 06:39:07.320:  Cloud functions:"}
+{"level":"info","message":"2025-07-15 06:39:07.459:  None"}
+{"level":"info","message":"2025-07-15 06:40:11.091:  Build and hosting process completed successfully"}
+{"level":"info","message":"2025-07-15 06:40:11.963:  Site is live"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-15 07:18:10.179:  Installing dependencies..."}
+{"level":"info","message":"2025-07-15 07:18:12.779:  =========================================================="}
+{"level":"info","message":"2025-07-15 07:18:12.787:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-15 07:18:12.789:  =========================================================="}
+{"level":"info","message":"2025-07-15 07:18:15.368:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-15 07:18:16.718:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-15 07:18:25.292:  added 419 packages, and audited 420 packages in 12s"}
+{"level":"info","message":"2025-07-15 07:18:25.295:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-15 07:18:25.297:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-15 07:18:25.299:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-15 07:18:25.301:  npm notice"}
+{"level":"info","message":"2025-07-15 07:18:25.304:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-15 07:18:25.306:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-15 07:18:25.308:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-15 07:18:25.310:  npm notice"}
+{"level":"info","message":"2025-07-15 07:18:25.751:  Init build..."}
+{"level":"info","message":"2025-07-15 07:18:30.390:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-15 07:18:30.392:  > next build"}
+{"level":"info","message":"2025-07-15 07:18:31.375:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-15 07:18:31.378:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-15 07:18:31.380:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-15 07:18:31.382:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-15 07:18:31.573:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-15 07:18:31.576:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-15 07:18:33.764:     Creating an optimized production build ..."}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-15 07:22:17.594:  Installing dependencies..."}
+{"level":"info","message":"2025-07-15 07:22:22.018:  =========================================================="}
+{"level":"info","message":"2025-07-15 07:22:22.026:  Current Node.js Version: v22.14.0"}
+{"level":"info","message":"2025-07-15 07:22:22.027:  =========================================================="}
+{"level":"info","message":"2025-07-15 07:22:24.825:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-15 07:22:26.053:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-15 07:22:35.157:  added 419 packages, and audited 420 packages in 13s"}
+{"level":"info","message":"2025-07-15 07:22:35.159:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-15 07:22:35.160:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-15 07:22:35.162:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-15 07:22:35.163:  npm notice"}
+{"level":"info","message":"2025-07-15 07:22:35.165:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-15 07:22:35.166:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-15 07:22:35.168:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-15 07:22:35.169:  npm notice"}
+{"level":"info","message":"2025-07-15 07:22:41.807:  Init build..."}
+{"level":"info","message":"2025-07-15 07:22:43.656:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-15 07:22:43.658:  > next build"}
+{"level":"info","message":"2025-07-15 07:22:44.683:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-15 07:22:44.685:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-15 07:22:44.687:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-15 07:22:44.688:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-15 07:22:44.830:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-15 07:22:44.832:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-15 07:22:47.268:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-15 07:22:56.137:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-15 07:22:56.139:     Collecting page data ..."}
+{"level":"info","message":"2025-07-15 07:22:58.561:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 07:22:59.217:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-15 07:23:00.790:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 07:23:00.930:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-15 07:23:00.932:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-15 07:23:00.934:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-15 07:23:00.996:  Error in getStaticProps: {"}
+{"level":"info","message":"2025-07-15 07:23:00.998:    error_message: \"We can't find that Stack. Please try again.\","}
+{"level":"info","message":"2025-07-15 07:23:01.000:    error_code: 109,"}
+{"level":"info","message":"2025-07-15 07:23:01.002:    errors: { api_key: [ 'is not valid.' ] },"}
+{"level":"info","message":"2025-07-15 07:23:01.003:    status: 412,"}
+{"level":"info","message":"2025-07-15 07:23:01.005:    statusText: 'Precondition Failed'"}
+{"level":"info","message":"2025-07-15 07:23:01.007:  }"}
+{"level":"info","message":"2025-07-15 07:23:01.174:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-15 07:23:05.985:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-15 07:23:05.987:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-15 07:23:19.972:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-15 07:23:19.974:  ┌ ● / (1229 ms)                            4.88 kB         204 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.976:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-15 07:23:19.978:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.979:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.981:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.982:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.984:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.985:  ├ ● /live-preview-demo (1039 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 07:23:19.987:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.988:  ├ ● /posts/[id] (5021 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 07:23:19.990:  ├   ├ /posts/1 (1005 ms)"}
+{"level":"info","message":"2025-07-15 07:23:19.991:  ├   ├ /posts/2 (1005 ms)"}
+{"level":"info","message":"2025-07-15 07:23:19.993:  ├   ├ /posts/3 (1004 ms)"}
+{"level":"info","message":"2025-07-15 07:23:19.994:  ├   ├ /posts/5 (1004 ms)"}
+{"level":"info","message":"2025-07-15 07:23:19.996:  ├   └ /posts/4 (1003 ms)"}
+{"level":"info","message":"2025-07-15 07:23:19.997:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-15 07:23:19.999:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-15 07:23:20.000:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-15 07:23:20.001:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-15 07:23:20.003:    ├ chunks/pages/_app-459ca665290d265d.js   106 kB"}
+{"level":"info","message":"2025-07-15 07:23:20.004:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-15 07:23:20.006:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-15 07:23:20.007:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-15 07:23:20.009:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-15 07:23:20.010:  npm notice"}
+{"level":"info","message":"2025-07-15 07:23:20.012:  npm notice New patch version of npm available! 11.4.1 -> 11.4.2"}
+{"level":"info","message":"2025-07-15 07:23:20.013:  npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.4.2"}
+{"level":"info","message":"2025-07-15 07:23:20.014:  npm notice To update run: npm install -g npm@11.4.2"}
+{"level":"info","message":"2025-07-15 07:23:20.016:  npm notice"}
+{"level":"info","message":"2025-07-15 07:23:21.302:  Build successful"}
+{"level":"info","message":"2025-07-15 07:23:21.305:  Cloud functions:"}
+{"level":"info","message":"2025-07-15 07:23:21.439:  None"}
+{"level":"info","message":"2025-07-15 07:24:23.711:  Build and hosting process completed successfully"}
+{"level":"info","message":"2025-07-15 07:24:25.057:  Site is live"}

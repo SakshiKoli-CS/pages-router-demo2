@@ -1,0 +1,82 @@
+{
+  "project": {
+    "uid": "6870ec9ada5eafaba5687e73",
+    "name": "Fileupload_example",
+    "projectType": "FILEUPLOAD",
+    "organizationUid": "blt8ca9ce72e25d0172",
+    "environments": [
+      {
+        "uid": "68710d95b17cdec1638d917f",
+        "name": "Test",
+        "frameworkPreset": "NEXTJS",
+        "__typename": "Environment"
+      }
+    ],
+    "__typename": "Project",
+    "deployments": [
+      {
+        "uid": "6870ec9bda5eafaba5687e85",
+        "status": "QUEUED",
+        "createdAt": "2025-07-11T10:51:07.047Z",
+        "updatedAt": "2025-07-11T10:51:07.954Z",
+        "deploymentUrl": "fileuploadexample.devcontentstackapps.com",
+        "commitMessage": "Triggered By File Upload",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "6870f748da5eafaba5687fe4",
+        "status": "QUEUED",
+        "createdAt": "2025-07-11T11:36:40.089Z",
+        "updatedAt": "2025-07-11T11:36:40.089Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample.devcontentstackapps.com",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "68710fa0da5eafaba56882d3",
+        "status": "QUEUED",
+        "createdAt": "2025-07-11T13:20:32.360Z",
+        "updatedAt": "2025-07-11T13:20:32.360Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "6874adad1f935f83a490a07e",
+        "status": "QUEUED",
+        "createdAt": "2025-07-14T07:11:41.328Z",
+        "updatedAt": "2025-07-14T07:11:41.328Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "6874b1541898ab7649519dca",
+        "status": "QUEUED",
+        "createdAt": "2025-07-14T07:27:16.501Z",
+        "updatedAt": "2025-07-14T07:27:16.501Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "687600a34a4bd83cdcc3955a",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T07:17:55.167Z",
+        "updatedAt": "2025-07-15T07:17:55.167Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "6876019a4a4bd83cdcc39e97",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T07:22:02.602Z",
+        "updatedAt": "2025-07-15T07:22:02.602Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "fileuploadexample-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      }
+    ]
+  }
+}

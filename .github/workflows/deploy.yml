@@ -1,0 +1,55 @@
+name: Manual Deploy to Launch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Show latest commit message
+        run: |
+          echo "📝 Latest Commit Message:"
+          git log -1 --pretty=format:"%s"
+
+      - name: Install Contentstack CLI
+        run: npm install -g @contentstack/cli
+
+      - name: Verify Contentstack CLI Installation
+        run: csdx --version
+
+      - name: Set Launch Region
+        run: csdx  config:set:region --name dev11 --cma https://dev11-api.csnonprod.com --cda https://dev11-cdn.csnonprod.com --ui-host https://dev11-app.csnonprod.com --launch https://dev-launch-api.csnonprod.com
+
+      - name: Authenticate to Contentstack
+        env:
+          CSDX_EMAIL: ${{ secrets.CSDX_EMAIL }}
+          CSDX_PASSWORD: ${{ secrets.CSDX_PASSWORD }}
+        run:
+          csdx auth:login -u "$CSDX_EMAIL" -p "$CSDX_PASSWORD"
+
+      - name: Deploy using Launch config
+        run: csdx launch  --config=/Users/sakshi.koli/Desktop/cli_project/config/.cs-launchTest.json --redeploy-latest
+
+        # ADD ENVIRONMENT FLAG IF YOU HAVE DIFFERENT ENVIRONMENT AND YOU WANT TO DEPLOY IN THE SPECIFIC ENVIRONMENT
+        # --environment EnvironmentName 
+
+        # ADD CONFIG FLAG IF YOU .cs-launch.json IS NOT IN THE ROOT DIRECTORY
+        # --config Path_to_launch_config_file

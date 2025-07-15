@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
 export default function Home({ movies }: HomeProps) {
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>Oswald</h1>
+      <h1 className={styles.heading}>Oswaldddddd !!!!</h1>
 
       <div className={styles.imageWrapper}>
         <Image
