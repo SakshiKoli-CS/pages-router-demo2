@@ -1,4 +1,3 @@
-// pages/shuffle-products.tsx
 import { GetServerSideProps } from 'next'
 
 type Product = {

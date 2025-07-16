@@ -31,7 +31,7 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
       props: {
         post,
       },
-      revalidate: 40, // CDN cache for 40s
+      revalidate: 40,
     }
   } catch {
     return {
@@ -47,7 +47,7 @@ export default function PostWithODR({ post }: Props) {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>📄 Post #{post.id}</h1>
+      <h1> Post #{post.id}</h1>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
       <p style={{ marginTop: '1rem', color: 'gray' }}>

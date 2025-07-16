@@ -53,7 +53,7 @@ export default function PostPage({ post }: PostPageProps) {
 
   return (
     <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
-      <h1>📝 Post #{post.id}</h1>
+      <h1>Post #{post.id}</h1>
       <h2>{post.title}</h2>
       <p>{post.body}</p>
       <p style={{ marginTop: '1rem', color: 'gray' }}>
